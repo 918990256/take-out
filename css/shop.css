@@ -1,0 +1,297 @@
+@import url('base.css');
+/* 头部 */
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 0.88rem;
+	background: #f40;
+	padding: 0 0.35rem 0 0.42rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+.fanhui{
+	float: left;
+	display: block;
+	height: 100%;
+}
+.fanhui i{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+}
+.headerr{
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerr .shoucang{
+	height: 100%;
+}
+.shoucang i,.search i,.fenxiang i{
+	float: left;
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.88rem;
+}
+/* 店铺简介 */
+.shop{
+	position: fixed;
+	top: 0.88rem;
+	width: 100%;
+	height: auto;
+	background: #f40;
+	padding: 0.84rem 0 0.2rem 0;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0 0 0.12rem;
+	z-index: 10;
+}
+.shopimg{
+	margin: 0 0.48rem 0 0.34rem;
+}
+.shopimg img{
+	width: 1.98rem;
+	height: 1.86rem;
+}
+.shoptext{
+	height: 1.86rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.shoptext h1{
+	font-size: 0.4rem;
+	font-weight: bold;
+	color: #fff;
+}
+.shoptext span{
+	font-size: 0.2rem;
+	color: #fff;
+}
+.shoptext p{
+	font-size: 0.24rem;
+	color: #fff;
+	width: 3.6rem;
+	line-height: 0.3rem;
+}
+.youhui{
+	color: #fff;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+}
+.youhui .shou{
+	float: left;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ff00e4;
+	margin-right: 0.1rem;
+}
+.youhui h3{
+	float: left;
+}
+/* 店铺操作 */
+.xuanxiang{
+	position: fixed;
+	top: 3.78rem;
+	width: 100%;
+	height: 0.5rem;
+	padding-top: 0.2rem;
+	font-size: 0.34rem;
+	line-height: 0.5rem;
+	color: #000;
+	background: #fff;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: space-around;
+	z-index: 10;
+}
+.heng{
+	position: absolute;
+	width: 2.24rem;
+	height: 0.01rem;
+	background: #f40;
+	left: 0.24rem;
+	bottom: 0.02rem;
+}
+.rexiao{
+	position: fixed;
+	top: 4.48rem;
+	width: 100%;
+	height: 0.7rem;
+	padding: 0.2rem 0.24rem 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: flex-start;
+	background: #fff;
+	z-index: 10;
+}
+.rexiao i{
+	font-size: 0.5rem;
+	color: #f00;
+	line-height: 0.5rem;
+	margin-right: 0.1rem;
+}
+.rexiao span{
+	font-size: 0.34rem;
+	line-height: 0.5rem;
+	color: #000;
+}
+.rexiao span:nth-child(3){
+	color: #d3d3d3;
+	margin-left: 0.76rem;
+}
+/* 主体 */
+.zhuti{
+	position: relative;
+	top: 5.18rem;
+	width: 100%;
+	height: 10.02rem;
+	display: flex;
+	justify-content: flex-start;
+	background: #fff;
+}
+.option{
+	position: fixed;
+	top: 5.18rem;
+	width: 1.84rem;
+	height: 100%;
+	background: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.zhuti .option li{
+	height: 1.2rem;
+	font-size: 0.34rem;
+	line-height: 1.2rem;
+	color: #000;
+}
+.shangpin{
+	position: absolute;
+	left: 1.94rem;
+	width: 5.2rem;
+	height: auto;
+	padding-bottom: 0.99rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.shangpin li{
+	width: 100%;
+	height: 2rem;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 0.01rem solid rgba(0, 0, 0, 0.1);
+}
+.shangpin li .goods{
+	float: left;
+	width: 1.33rem;
+	height: 1.33rem;
+	border-radius: 0.1rem;
+	margin: 0 0.32rem 0 0;
+}
+.shangpin li .goods img{
+	width: 100%;
+	height: 100%;
+}
+.goodstext{
+	height: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.goodstext h1{
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #000;
+}
+.goodstext h2{
+	font-size: 0.2rem;
+	color: #000;
+}
+.goodstext h3{
+	width: 0.98rem;
+	height: 0.2rem;
+	border: 0.01rem solid #f00;
+	border-radius: 0.1rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.2rem;
+	color: #f00;
+}
+.goodstext h4{
+	width: 3.55rem;
+	height: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.goodstext h4 span{
+	float: left;
+	font-size: 0.34rem;
+	color: #f00;
+	line-height: 0.5rem;
+}
+.goodstext h4 i{
+	font-size:0.5rem;
+	color: #f00; 
+}
+/* 底部 */
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 0.98rem;
+	background: #b9b9b9;
+}
+footer .icon{
+	position: absolute;
+	left: 0.25rem;
+	bottom: 0.04rem;
+	width: 1.16rem;
+	height: 1.16rem;
+	background: #999999;
+	border-radius: 50%;
+}
+footer .icon>i{
+	float: left;
+	font-size: 0.6rem;
+	color: #4c4c4c;
+	margin: 0.28rem;
+	font-weight: bold;
+}
+.fttext{
+	position: absolute;
+	top: 0;
+	left: 1.46rem;
+	width: auto;
+	height: 0.98rem;
+}
+.fttext h1{
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 0.6rem;
+}
+.fttext h2{
+	font-size: 0.2rem;
+	color: #000;
+	line-height: 0.38rem;
+}
+.button{
+	float: right;
+	width: 2rem;
+	height: 100%;
+	background: #999999;
+	font-size: 0.3rem;
+	color: #000;
+	line-height: 0.98rem;
+	text-align: center;
+}

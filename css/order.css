@@ -1,0 +1,184 @@
+@import url('base.css');
+/* 头部 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f40;
+}
+.head{
+	width: 100%;
+	height: 100%;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.88rem;
+	color: #fff;
+	font-weight: bold;
+}
+/* 内容 */
+.neirong{
+	width: 100%;
+	height: 12.06rem;
+	background: #fff;
+}
+.top{
+	width: 100%;
+	height: 1.88rem;
+	padding: 0.5rem 1rem 0.45rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top li{
+	position: relative;
+	float: left;
+	width: 0.6rem;
+	height: 0.93rem;
+}
+.top li i{
+	position: absolute;
+	top: 0;
+	font-size: 0.6rem;
+}
+.top li h1{
+	position: absolute;
+	bottom: 0;
+	font-size: 0.2rem;
+	line-height: 0.24rem;
+	color: #000;
+	text-align: center;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.top1 i{
+	color: #1d1dff;
+}
+.top2 i{
+	color: #ff0000;
+}
+.top3 i{
+	color: #ffc80a;
+}
+.top4 i{
+	color: #9e00ff;
+}
+.bottom{
+	width: 100%;
+	height: auto;
+}
+.bottom li{
+	position: relative;
+	width: 100%;
+	height: 2.64rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem 0.6rem 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.bottom li .tjimg{
+	display: block;
+	float: left;
+	width: 1.56rem;
+	height: 1.56rem;
+	border: 0.01rem solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.1rem;
+	margin: 0 0.34rem 0 0;
+	box-shadow: 0 0 0.05rem 0.05rem rgba(0, 0, 0, 0.1);
+}
+.text{
+	height: 1.63rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	color: #000;
+}
+.text h1{
+	font-size: 0.34rem;
+	font-weight: bold;
+}
+.text h2{
+	font-size: 0.2rem;
+}
+.right{
+	position: absolute;
+	right: 0.6rem;
+	top: 0.5rem;
+	width: 1rem;
+	height: 1.63rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+	color: #f40;
+}
+.right h3{
+	font-size: 0.2rem;
+}
+.right h4{
+	width: 1rem;
+	height: 0.3rem;
+	border: 0.01rem solid #f40;
+	border-radius: 0.15rem;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 0.3rem;
+	text-align: center;
+	font-size: 0.2rem;
+}
+/* TAB栏 */
+.tab{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0.98rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+
+}
+.tab .tabimg{
+	margin-top: 0.17rem;
+	display: inline-block;
+	width: 0.67rem;
+	height: 0.78rem;
+}
+.tab .tabimg .tabimg1{
+	height: 0.4rem;
+	background: url('../img/personal/TAB1.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg2{
+	height: 0.4rem;
+	background: url('../img/TAB2.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg3{
+	height: 0.4rem;
+	background: url('../img/order/TAB3.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg4{
+	height: 0.4rem;
+	background: url('../img/TAB4.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg span{
+	float: left;
+	width: 100%;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #000;
+}
+.tab .tabimg:nth-child(3) span{
+	color: #f40;
+}

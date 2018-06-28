@@ -1,0 +1,420 @@
+@import url('base.css');
+/* 头部 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #f40;
+	padding: 0 0.43rem 0 0.65rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/* 定位 */
+.position{
+	float: left;
+	width: 3.1rem;
+	height: 0.88rem;
+	
+}
+.position i{
+	display: block;
+	float: left;
+	font-size: 0.45rem;
+	line-height: 0.88rem;
+	color: #fff;
+	margin: 0 0.3rem 0 0;
+
+}
+.position span{
+	display: block;
+	float: left;
+	font-size: 0.34rem;
+	line-height: 0.88rem;
+	color: #fff;
+}
+/* 搜索 */
+.search{
+	display: block;
+	float: right;
+	width: 1.52rem;
+	height: 0.54rem;
+	border-radius: 0.25rem;
+	background: rgba(255, 255, 255, 0.5);
+}
+.search i{
+	display: block;
+	float: left;
+	font-size: 0.42rem;
+	line-height: 0.54rem;
+	color: #fff;
+}
+.search input{
+	display: block;
+	float: right;
+	border: none;
+	height: 100%;
+	padding: 0;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+	width: 1.02rem;
+	box-sizing: content-box; 
+	background: rgba(255, 255, 255, 0);	
+}
+.search input:focus{
+	outline: none;
+}
+/* banner */
+.swiper-container{
+	position: relative;
+	width: 100%;
+	height: 4.13rem;
+	background: #f40;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+/* banner图 */
+/* .banner a{
+	display: block;
+	border-radius: 0.1rem;
+	width: 7.02rem;
+	height: 100%;
+}
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+} */
+/* 轮播点 */
+/* .bannerbtn{
+	position: absolute;
+	width: 0.47rem;
+	height: 0.1rem;
+	bottom: 0.13rem;
+	left: 3.52rem;
+}
+.bannerbtn li{
+	float: left;
+	width: 0.1rem;
+	height: 0.1rem;
+	border-radius: 0.05rem;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 0 0 0 0.08rem;
+}
+.bannerbtn li:first-child{
+	background: #fff;
+	margin: 0;
+} */
+/* 按钮 */
+.btn{
+	width: 100%;
+	height: 3.45rem;
+	background: #fff;
+	padding: 0.18rem 0.5rem 0.15rem;
+	box-sizing: border-box;
+}
+.btn li{
+	position: relative;	
+	float: left;
+	width: 1.05rem;
+	height: 1.05rem;
+	border-radius: 50%;
+	background: rgba(255, 68, 0, 0.2);
+	margin: 0 0.76rem 0 0;	
+}
+.btn li:nth-child(4){
+	margin: 0;
+}
+.btn .btnB{
+	margin: 0.75rem 0.76rem 0 0;
+}
+.btn .btnB:nth-child(8){
+	margin: 0.75rem 0 0;
+}
+.btn i{
+	position: absolute;
+	top: 0.225rem;
+	left: 0.225rem;
+	display: inline-block;
+	font-size: 0.6rem;
+	color: #f40;
+
+}
+.btn span{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 0.3rem;
+	top: 1.05rem;
+	left: 0;
+	font-size: 0.24rem;
+	line-height: 0.3rem;
+	text-align: center;
+	color: #000;
+}
+/* 今日特惠 */
+.tehui{
+	position: relative;
+	width: 100%;
+	height: 3.6rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	padding: 0 0.24rem 0.12rem;
+	box-sizing: border-box;
+}
+.thtop{
+	width: 100%;
+	height: 0.67rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.67rem;
+	color: #ff9600;
+
+}
+.hengl{
+	position: absolute;
+	top: 0.33rem;
+	left: 2.42rem;
+	width: 0.5rem;
+	height: 0.01rem;
+	background: #ff9600;
+
+}
+.hengr{
+	position: absolute;
+	top: 0.33rem;
+	right: 2.42rem;
+	width: 0.5rem;
+	height: 0.01rem;
+	background: #ff9600;
+}
+.thbottom{
+	position: relative;
+	width: 100%;
+	height: 2.82rem;
+}
+.thbottom a{
+	display: block;
+	float: left;
+	width: 2.3rem;
+	height: 100%;
+
+}
+.thbottom a:nth-child(2){
+	position: absolute;
+	top: 0;
+	left: 2.4rem;
+	width: 2.2rem;
+	height: 1.4rem;
+}
+.thbottom a:nth-child(3){
+	position: absolute;
+	top: 1.42rem;
+	left: 2.4rem;
+	width: 2.2rem;
+	height: 1.4rem;
+}
+.thbottom a:nth-child(4){
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+/* 推荐店铺 */
+.tuijian{
+	width: 100%;
+	height: 10.97rem;
+	background: #fff;
+
+}
+.tuijian{
+	position: relative;
+	width: 100%;
+	height: 10.86rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	padding: 0 0.24rem 0;
+	box-sizing: border-box;
+	margin-bottom: 0.99rem;
+}
+.tjtop{
+	width: 100%;
+	height: 0.67rem;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.67rem;
+	color: #ff9600;
+
+}
+.hengl{
+	position: absolute;
+	top: 0.33rem;
+	left: 2.42rem;
+	width: 0.5rem;
+	height: 0.01rem;
+	background: #ff9600;
+
+}
+.hengr{
+	position: absolute;
+	top: 0.33rem;
+	right: 2.42rem;
+	width: 0.5rem;
+	height: 0.01rem;
+	background: #ff9600;
+}
+.tjbottom li{
+	width: 100%;
+	height: 2.54rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+}
+.tjbottom li a{
+	display: block;
+	float: left;
+	width: 1.56rem;
+	height: 1.56rem;
+	margin: 0.33rem 0.33rem 0.65rem 0.03rem;
+}
+.tjbottom .tjimg{
+	width: 1.55rem;
+	height: 1.55rem;
+	border: 0.01rem solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.1rem;
+}
+.tjbottom .text{
+	display: block;
+	width: 3.3rem;
+	height: 1.83rem;
+	color: #000;
+	margin: 0.33rem 0 0;
+
+}
+.text h1{
+	font-size: 0.34rem;
+	font-weight: bold;
+	color: #000;
+	text-align: left;
+}
+.text .pingji{
+	float: left;
+	width: 100%;
+	height: 0.26rem;
+	margin: 0.1rem 0;
+}
+.text .pingji img{
+	float: left;
+	width: 1.7rem;
+	height: 0.26rem;
+	margin-right: 0.11rem;
+}
+.text .pingji span{
+	float: left;
+	font-size: 0.2rem;
+	line-height: 0.26rem;
+	margin-right: 0.17rem;
+}
+.text p{
+	float: left;
+	font-size: 0.2rem;
+	font-weight: bold;
+	height: 0.34rem;
+	line-height: 0.34rem;
+	
+}
+.youhui{
+	float: left;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	margin: 0.07rem 0;
+}
+.youhui .shou{
+	float: left;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ff00e4;
+	margin-right: 0.1rem;
+}
+.youhui .jian{
+	float: left;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ffff00;
+	margin-right: 0.1rem;
+}
+.youhui .te{
+	float: left;
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #ff4400;
+	margin-right: 0.1rem;
+}
+.youhui h3{
+	float: left;
+}
+.juli{
+	height: 0.76rem;
+	margin: 0.38rem 0.32rem 0 0;
+	text-align: right;
+}
+.juli span{
+	display: block;
+	font-size: 0.2rem;
+	line-height: 0.38rem;
+}
+/* TAB栏 */
+.tab{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0.98rem;
+	border-top: 0.01rem solid rgba(0, 0, 0, 0.1);
+	background: #fff;
+	display: flex;
+	justify-content: space-around;
+
+}
+.tab .tabimg{
+	margin-top: 0.17rem;
+	display: inline-block;
+	width: 0.67rem;
+	height: 0.78rem;
+}
+.tab .tabimg .tabimg1{
+	height: 0.4rem;
+	background: url('../img/TAB1.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg2{
+	height: 0.4rem;
+	background: url('../img/TAB2.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg3{
+	height: 0.4rem;
+	background: url('../img/TAB3.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg .tabimg4{
+	height: 0.4rem;
+	background: url('../img/TAB4.png') no-repeat center;
+	background-size: contain;
+}
+.tab .tabimg span{
+	float: left;
+	width: 100%;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.38rem;
+	color: #000;
+}
+.tab .tabimg:first-child span{
+	color: #f40;
+}
